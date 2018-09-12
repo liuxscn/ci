@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.shortcuts import HttpResponse, render
 
 def return_index(request):
-    return render(request, 'index.html')
+    return render(request, 'index1.html')
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
